@@ -1,0 +1,33 @@
+.calc{
+	width: 37%;
+	margin: 20px auto;
+	background-color: #FF8C00;
+}
+.container{
+	border-radius: 10px;
+}
+.botao{
+	font-size: 23px;
+	height: 50px;
+  background-color:#fff;
+}
+.boto{
+  font-size: 70px;
+  height: 40px;
+  background: #00FF7F ;
+}
+
+.inp{
+	font-size: 45px;
+	height: 60px;
+	font-family: "OCR A Std";
+}
+#display{
+	background-color: #228B22
+}
+.botaozao{
+	font-size: 23px;
+	height: 50px;
+  background-color:#fff;
+	margin-top: 25px;
+}
