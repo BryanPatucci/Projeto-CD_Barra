@@ -1,8 +1,15 @@
 body{
-  background-color: #708090;
+  background-color:black;
+}
+.jumbotron{
+  margin-top: 25px;
+  background-color:#2F4F4F;
+}
+.titulo{
+  font-size: 40px;
 }
 
-h1, h3{
+h1, h2{
   text-align: center;
   color:white;
 }
@@ -10,4 +17,8 @@ h1, h3{
 button{
   color:white;
   height: 100px;
+}
+.info{
+  color:white;
+  text-align: left;
 }
