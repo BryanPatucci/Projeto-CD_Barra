@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
   <script src="components/loader.js"></script>
-  <script src="lib/onsenui/js/onsenui.min.js"></script>
+  <script src="components/js/sistema.js"></script>
+  <script src="components/js/jquery-3.3.1.min.js" type=""></script>
 
   <link rel="stylesheet" href="components/loader.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
-  <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
 
-  <script>
-    ons.ready(function() {
-      console.log("Onsen UI is ready!");
-    });
-
-    if (ons.platform.isIPhoneX()) {
-      document.documentElement.setAttribute('onsflag-iphonex-portrait', '');
-      document.documentElement.setAttribute('onsflag-iphonex-landscape', '');
-    }
-  </script>
 </head>
 <body>
-  This is a template for Onsen UI app.
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Leitor de Código de Barras<h1>
+        <hr>
+        <h3>Aperte no botão abaixo para abrir o leitor de código de barras</h3>
+        <br><br><br>
+       <button class="btn btn-block btn-lg btn-info" onClick="Leitor();" id="#barCode">Abrir Leitor</button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
