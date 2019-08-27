@@ -1,24 +1,49 @@
 body{
-  background-color:black;
+  background-color:#2F4F4F;
 }
 .jumbotron{
   margin-top: 25px;
   background-color:#2F4F4F;
 }
+
 .titulo{
   font-size: 40px;
 }
-
 h1, h2{
   text-align: center;
   color:white;
 }
+h4{
+  color: white;
+  font-size: 40px;
+}
 
-button{
+.btn{
+  background-color: #204040;
   color:white;
   height: 100px;
+  font-size: 35px;
 }
+#Leitor{
+  color: white;
+}
+
 .info{
   color:white;
   text-align: left;
+}
+
+.disp2{
+  width: 400px;
+  height: 400px;
+  margin-left: -110px;
+}
+.disp3{
+  width: 400px;
+  height: 400px;
+  margin-left: -40px;
+}
+.disp4{
+  width: 300px;
+  height: 400px;
 }
